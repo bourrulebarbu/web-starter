@@ -6,7 +6,11 @@
     "type": "git",
     "url": "https://github.com/Jeremboo/web-starter"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "webpack-dev-server --config config/webpack.dev.config.js --progress",
+    "deploy": "rm -rf public/ && npm install && npm run build",
+    "build": "webpack --config config/webpack.prod.config.js --progress -p"
+  },
   "keywords": [
     "starter",
     "kit",
@@ -15,6 +19,15 @@
   ],
   "author": "Jérémie Boulay <jeremi.boulay@gmail.com>",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9"
+  }
 }
