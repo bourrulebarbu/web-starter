@@ -8,12 +8,16 @@ Multiple starters for many web utilities.
 
 ### React - Webpack starter
 
-`git clone -b webpack-starter https://github.com/bourrulebarbu/web-starter`
+`git clone -b webpack-react https://github.com/bourrulebarbu/web-starter`
 
 ### Redux - Webpack starter
 
-**Soon**
+`git clone -b webpack-redux https://github.com/bourrulebarbu/web-starter`
 
 ### Electron starter
+
+**Soon**
+
+### Cordova starter
 
 **Soon**
