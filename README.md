@@ -1,8 +1,19 @@
-# My web app starter kit
+# Web app starter kits
 
-Just a architecture to manage a web project. There is not builder, libraries or other post Processor on master branch.
-Please look at other branchs
+Multiple starters for many web utilities.
 
-## Details :
+### Brunch starter
+
+`git clone -b brunch https://github.com/bourrulebarbu/web-starter`
+
+### React - Webpack starter
+
+`git clone -b webpack-starter https://github.com/bourrulebarbu/web-starter`
+
+### Redux - Webpack starter
+
+**Soon**
+
+### Electron starter
 
 **Soon**
